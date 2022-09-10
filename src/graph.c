@@ -8,6 +8,7 @@
 int main() {
     char str[100], *pol;
     double y[80], x = 0, dx = X_MAX / 79;
+    printf("Input function:\n");
     scanf("%99s", str);
     pol = polinate(str);
     for (int i = 0; i < 80; ++i) {
